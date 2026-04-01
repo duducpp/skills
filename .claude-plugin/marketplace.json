@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "emac-ai-kit",
+  "description": "EMAC AI skills, commands, and hooks",
+  "owner": {
+    "name": "EMAC LAB"
+  },
+  "metadata": {
+    "description": "EMAC AI skills, commands, and hooks",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "emac-ai-skills",
+      "source": "./plugins/emac-ai-skills",
+      "description": "EMAC AI skills",
+      "version": "1.0.0",
+      "author": {
+        "name": "EMAC LAB"
+      },
+      "license": "MIT"
+    }
+  ]
+}
